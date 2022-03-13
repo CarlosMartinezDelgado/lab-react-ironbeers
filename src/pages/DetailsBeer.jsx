@@ -37,9 +37,9 @@ function DetailsBeer() {
       <h3>DetailsBeer</h3>
       <img src={beersDetails.image_url} alt="image" width="100px" />
       <h4>{beersDetails.name}</h4>
-      <p>{beersDetails.tagline}</p>
-      <p>{beersDetails.first_brewed}</p>
-      <p>{beersDetails.attenuation_level}</p>
+      <p>Tagline:{beersDetails.tagline}</p>
+      <p>First Brewed:{beersDetails.first_brewed}</p>
+      <p>Attenuation:{beersDetails.attenuation_level}</p>
       <p>Description: {beersDetails.description}</p>
       <p>Details: {beersDetails.contributed_by}</p>
     </div>
