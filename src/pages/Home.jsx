@@ -16,14 +16,14 @@ function Home() {
       <div>
         <img src={randomBeer} alt="randombeer" />
         <br />
-        <Link to="/randomBeer">Cerveza Aleatoria</Link>
+        <Link to="/random-beer">Cerveza Aleatoria</Link>
       </div>
       <br />
 
       <div>
         <img src={newBeer} alt="newbeer" />
         <br />
-        <Link to="/newBeer">Añadir Cerveza</Link>
+        <Link to="/new-beer">Añadir Cerveza</Link>
       </div>
     </div>
   );
